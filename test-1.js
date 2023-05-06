@@ -15,6 +15,14 @@ let person = {
     hasAjob: false
 }
 
+person["height"] = 5
+
+console.log(person["height"])
+
+for(let prop in person) {
+  console.log(prop +":"+ person[prop])
+}
+
 //----------------------------------------------Functions-----------------------------------------------------------
 // Functions are blocks of code that perform a specific task. They can be declared using the function keyword. 
 // Here is an example of a function that takes two numbers as arguments and returns their sum:
